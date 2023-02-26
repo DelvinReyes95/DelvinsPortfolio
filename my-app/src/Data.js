@@ -50,8 +50,12 @@ export const services = [
     icon: <AttachMoneyIcon />,
     title: "Prices",
   },
+
+];
+
+export const times = [
   {
-    id: 2,
+    id: 1,
     icon: <AccessTimeIcon />,
     title: "Time Management",
   },
