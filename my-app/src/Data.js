@@ -1,5 +1,11 @@
-import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
-import AccessTimeIcon from '@mui/icons-material/AccessTime';
+import AttachMoneyIcon from "@mui/icons-material/AttachMoney";
+import AccessTimeIcon from "@mui/icons-material/AccessTime";
+import WatchIcon from "@mui/icons-material/Watch";
+// import CookieIcon from "@mui/icons-material/Cookie";
+import LocalAtmIcon from '@mui/icons-material/LocalAtm';
+import LocationOnIcon from "@mui/icons-material/LocationOn";
+import ContactMailIcon from "@mui/icons-material/ContactMail";
+
 
 
 import sirrea3 from "./assets/sirrea3.JPG";
@@ -13,8 +19,7 @@ import nacier from "./assets/nacier.JPG";
 import jorden from "./assets/jorden.JPG";
 import jordan from "./assets/jordan.JPG";
 
-import LocationOnIcon from '@mui/icons-material/LocationOn';
-import ContactMailIcon from '@mui/icons-material/ContactMail';
+
 
 export const navLinks = [
   {
@@ -32,11 +37,11 @@ export const navLinks = [
     text: "Services",
     href: "services",
   },
-//   {
-//     id: 4,
-//     text: "Blog",
-//     href: "blog",
-//   },
+  //   {
+  //     id: 4,
+  //     text: "Blog",
+  //     href: "blog",
+  //   },
   {
     id: 4,
     text: "Contact",
@@ -49,58 +54,51 @@ export const services = [
     id: 1,
     icon: <AttachMoneyIcon />,
     title: "Prices",
+    text: "COMING SOON"
   },
-
+  {
+    id: 2,
+    icon: <WatchIcon />,
+    title: "Working Hours",
+    text: "ON HOLD"
+  },
 ];
 
-export const times = [
+export const requirements = [  
+  
   {
     id: 1,
     icon: <AccessTimeIcon />,
-    title: "Time Management",
+    text: "Time Management",
+    amount: "BE ON TIME!",
   },
-//   {
-//     id: 3,
-//     icon: <TiDeviceDesktop />,
-//     title: "Web Design",
-//   },
-//   {
-//     id: 4,
-//     icon: <TbSpeakerphone />,
-//     title: "Marketing",
-//   },
-// ];
-// export const serviceFinishes = [
-//   {
-//     id: 1,
-//     icon: <BsHeart />,
-//     text: "Happy Clients",
-//     amount: 566,
-//   },
-//   {
-//     id: 2,
-//     icon: <BsWatch />,
-//     text: "Working Hours",
-//     amount: 5335,
-//   },
-//   {
-//     id: 3,
-//     icon: <BsStar />,
-//     text: "Awards Won",
-//     amount: 13,
-//   },
-//   {
-//     id: 4,
-//     icon: <BiCoffeeTogo />,
-//     text: "Coffee Consumed",
-//     amount: 1189,
-//   },
+  {
+    id: 2,
+    icon: <LocalAtmIcon />,
+    text: "Deposit",
+    amount: 0,
+  },
+  // {
+  //   id: 3,
+  //   icon: <CookieIcon />,
+  //   text: "HOLDER",
+  //   amount: 0,
+  // },
+
+  // {
+  //   id: 4,
+  //   icon: <CookieIcon />,
+  //   text: "HOLDER",
+  //   amount: 0,
+  // },
+
 ];
 export const btns = [
   { id: 1, name: "All", value: "all" },
   { id: 2, name: "Portraits", value: "portraits" },
   { id: 3, name: "Street", value: "streets" },
   { id: 4, name: "Lifestyle", value: "lifestyle" },
+  { id: 5, name: "Boudoir", value: "boudoir" },
 ];
 
 export const photoshoots = [
@@ -155,29 +153,6 @@ export const photoshoots = [
     value: "streets",
   },
 ];
-
-// export const blogs = [
-//   {
-//     id: 1,
-//     image: blog1,
-//     title: "What Skills Do You Need for Marketing in 2023?",
-//   },
-//   {
-//     id: 2,
-//     image: blog2,
-//     title: "What is Web Design? A Comprehensive Guide",
-//   },
-//   {
-//     id: 3,
-//     image: blog3,
-//     title: "100 Best Web Design Blogs You Must Read in 2023",
-//   },
-//   {
-//     id: 4,
-//     image: blog4,
-//     title: "How to Learn Web Design at Home",
-//   },
-// ];
 
 export const contacts = [
   {
