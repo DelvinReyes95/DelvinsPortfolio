@@ -1,6 +1,5 @@
 import React from "react";
-import { services } from "../Data";
-import { times } from "../Data"
+import { services, requirements } from "../Data";
 
  const Services = () => {
     return(
@@ -15,32 +14,25 @@ import { times } from "../Data"
             <div className="text-[#4d7c0f] text-[2rem]">{service.icon}</div>
             <div>
             <h3 className="text-xl font-bold">{service.title}</h3>
-            <p className="opacity-80 mt-4 text-[0.9rem]">
-              TEST
-            </p>
+            <p className="opacity-80 mt-4 text-[0.9rem]">{service.text}</p>
             </div>
-            
           </div>
         )
+
       })}
       </div>
-      <div className="flex">
-        <div className="grid sm:grid-cols-2 gap-8">{times.map(time => {
-        return(
-          <div key={time.id} className="flex gap-4 p-4 hover:bg-slate-300 rounded-lg">
-            <div className="text-[#4d7c0f] text-[2rem]">{time.icon}</div>
-            <div>
-            <h3 className="text-xl font-bold">{time.title}</h3>
-            <p className="opacity-80 mt-4 text-[0.9rem]">
-              TEST2
-            </p>
+
+      <div className="grid sm:grid-cols-2 md:grid-cols-4 mt-12 gap-4">
+        {requirements.map(requirement => {
+          return(
+            <div className="text-center border border-solid border-grey p-8 rounded-md" key={requirement.id}>
+              <div className="flex justify-center mb-4 text-[1.5rem]">{requirement.icon}</div>
+              <div className="mb-4 text-xl font-bold">{requirement.text}</div>
+              <div className="">{requirement.amount}</div>
+
             </div>
-            
-          </div>
-        )
-      })}
-      </div>
-      
+          )
+        })}
 
       </div>
 
