@@ -77,13 +77,25 @@ export const services = [
     id: 1,
     icon: <AttachMoneyIcon />,
     title: "Prices",
-    text: "COMING SOON"
+    text: "Studio (Solos): $350",
+    text2: "Studio (Duos): $500",
+    text3: "Studio (Groups over 3+): $750",
+    text4: "Outdoor (Solos): $170",
+    text5: "Outdoor (Duos): $400",
+    text6: "Outdoor (Groups over 3+): $550",
+    text7: "Feel free to contact me for more questions down below."
   },
   {
     id: 2,
     icon: <WatchIcon />,
     title: "Working Hours",
-    text: "ON HOLD"
+    text: "Monday: 12pm - 9pm",
+    text2: "Tuesday: 12pm - 9pm",
+    text3: "Wednesday: 12pm - 9pm",
+    text4: "Thursday: 1pm - 9pm",
+    text5: "Friday: 1pm - 9pm",
+    text6: "Saturday: FLEXIBLE",
+    text7: "Sunday: UNAVAILABLE"
   },
 ];
 
@@ -93,13 +105,14 @@ export const requirements = [
     id: 1,
     icon: <AccessTimeIcon />,
     text: "Time Management",
-    amount: "BE ON TIME!",
+    amount: "Photoshoots are a minimum of 2hrs",
+    tab: "PLEASE BE ON TIME!",
   },
   {
     id: 2,
     icon: <LocalAtmIcon />,
     text: "Deposit",
-    amount: 0,
+    amount: "50% or Full payment with Zelle",
   },
   // {
   //   id: 3,
@@ -118,7 +131,7 @@ export const requirements = [
 ];
 export const btns = [
   { id: 1, name: "All", value: "all" },
-  { id: 2, name: "Portraits", value: "portraits" },
+  { id: 2, name: "Portrait", value: "portraits" },
   { id: 3, name: "Street", value: "streets" },
   { id: 4, name: "Lifestyle", value: "lifestyle" },
   { id: 5, name: "Boudoir", value: "boudoir" },

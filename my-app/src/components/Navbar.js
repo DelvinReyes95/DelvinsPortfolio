@@ -9,7 +9,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <div className="fixed w-full top-0 left-0 z-20">
+    <div style={{backgroundColor: "white"}} className="fixed w-full top-0 left-0 z-20">
       <div className="container mix-auto flex items-center justify-between py-4 px-2">
         <div className="flex items-center gap-2">
           <div className="rounded-full w-8 h-8 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:from-pink-500 hover:to-yellow-500 text-white flex items-center justify-center font-bold">
@@ -22,7 +22,8 @@ const Navbar = () => {
         <div className="md:flex hidden items-center gap-6">
           {navLinks.map((navLink) => {
             return (
-              <a href={`#${navLink.href}`} className="text-[0.95rem]">
+              <a href={`#${navLink.href}`} className=" 
+              text-[0.95rem]">
                   {navLink.text}
                 </a>
             );
