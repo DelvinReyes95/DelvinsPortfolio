@@ -81,7 +81,7 @@ export const services = [
     text2: "Studio (Duos): $500",
     text3: "Studio (Groups over 3+): $750",
     text4: "Outdoor (Solos): $170",
-    text5: "Outdoor (Duos): $400",
+    text5: "Outdoor (Duos): $340",
     text6: "Outdoor (Groups over 3+): $550",
     text7: "Feel free to contact me for more questions down below."
   },
