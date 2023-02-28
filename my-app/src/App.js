@@ -5,6 +5,9 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import Photoshoots from "./components/Photoshoots";
 import Services from "./components/Services";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import ScrollTop from "./components/ScrollTop";
+
 
 function App() {
   return (
@@ -15,6 +18,8 @@ function App() {
       <Photoshoots />
       <Services />
       <Contact />
+      <Footer />
+      <ScrollTop />
     </Router>
     </div>
   );

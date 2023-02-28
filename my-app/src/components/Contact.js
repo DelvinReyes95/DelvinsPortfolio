@@ -1,7 +1,30 @@
-import React from "react";
+import React, { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
 import { contacts } from "../Data";
 
 const Contact = () => {
+  const form = useRef();
+  const [messageSent, setMessageSent] = useState(false);
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_ibylisq",
+        "template_4vi0t0e",
+        form.current,
+        "uI6dem_EN1VmtKRlW"
+      )
+      .then(
+        (result) => {
+          setMessageSent(true);
+          e.target.reset("Message sent");
+        },
+        (error) => {}
+      );
+  };
+
   return (
     <div className="container mx-auto mb-7 px-6" id="contact">
       <div className="mb-8">
@@ -21,17 +44,20 @@ const Contact = () => {
           })}
         </div>
         <div className="mt-8 flex  gap-12 flex-wrap justify-center">
-          <div>
+          <form ref={form} onSubmit={sendEmail} >
+            <div>
             <div className="mb-5">
               <input
                 type="text"
+                name="name"
                 className="outline-none bg-transparent border border-solid border-blue p-2 text-[0.9rem]"
                 placeholder="Name"
               />
             </div>
             <div className="mb-5">
               <input
-                type="text"
+                type="email"
+                name="user_email"
                 className="outline-none bg-transparent border border-solid border-blue p-2 text-[0.9rem]"
                 placeholder="Email"
               />
@@ -39,22 +65,28 @@ const Contact = () => {
             <div className="mb-5">
               <input
                 type="text"
+                name="budget"
                 className="outline-none bg-transparent border border-solid border-blue p-2 text-[0.9rem]"
                 placeholder="Budget"
               />
             </div>
-          </div>
-          <div>
-            <textarea
-              placeholder="Message"
-              className="outline-none bg-transparent border border-solid border-blue resize-none text-[0.9rem] p-2 h-40 w-80"
-            ></textarea>
-            <div className="mt-2 text-end">
-              <a href="" className="text-[0.9rem] text-blue">
-                Send message
-              </a>
+            <div>
+              <textarea
+                placeholder="Message"
+                name="message"
+                className="outline-none bg-transparent border border-solid border-blue resize-none text-[0.9rem] p-2 h-40 w-80"
+              />
+              <div className="mt-2 text-end">
+                <button type="submit"
+                  value="Send"
+                  className="text-[0.9rem] text-blue">
+                  Send message
+                </button>
+                {messageSent && <p className="text-black font-fourth">Message Sent!</p>}
+              </div>
             </div>
           </div>
+          </form>
         </div>
       </div>
     </div>
