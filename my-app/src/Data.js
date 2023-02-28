@@ -10,13 +10,36 @@ import ContactMailIcon from "@mui/icons-material/ContactMail";
 
 import sirrea3 from "./assets/sirrea3.JPG";
 import tessa from "./assets/tessa.JPG";
-import RachelyP2 from "./assets/RachelyP2.jpg";
+import RachelyP from "./assets/RachelyP.jpg";
+import RachelyP3 from "./assets/RachelyP3.JPG";
 import shoniah from "./assets/shoniah.JPG";
+import shoniahPortrait from "./assets/shoniahPortrait.jpg";
+import KarinaStreet from "./assets/karinaStreet.jpg";
+import KarinaP2 from "./assets/KarinaP2.JPG";
 import ZiannaP from "./assets/ZiannaP.JPG";
+import ZiannaP3 from "./assets/ZiannaP3.JPG";
+import ziannaBoudoir from "./assets/ziannaBoudoir.JPG";
+import tessaBoudoir from "./assets/tessaBoudoir.JPG";
+import abigale from "./assets/abigaleBoudoir.jpg";
+import CassidyMMA from "./assets/CassidyMMA.JPG";
+import ZenobiaP from "./assets/ZenobiaP.jpg";
+import ZenobiaP2 from "./assets/ZenobiaP2.JPG";
+import ZenobiaP3 from "./assets/ZenobiaP3.JPG";
+import sirreaPortrait from "./assets/sirreaPortrait.JPG";
+import Britt from  "./assets/Britt.JPG";
+import Jasline from  "./assets/jasline.jpg";
+import Karla from  "./assets/Karla.JPG";
+import Lizz from  "./assets/Liz.JPG";
+import GradStu from "./assets/GradStu.JPG";
 import cesar from "./assets/cesar.JPG";
 import DevonteP from "./assets/DevonteP.JPG";
-import nacier from "./assets/nacier.JPG";
 import jorden from "./assets/jorden.JPG";
+import jordenMMA from "./assets/jordenMMA.jpg";
+import nacier from "./assets/nacier.JPG";
+import caston from "./assets/CastonP.JPG";
+import AnthonyPortrait from "./assets/AnthonyPortrait.jpg";
+import jerm from "./assets/jerm.jpg";
+import raymond from "./assets/raymond.jpg";
 import jordan from "./assets/jordan.JPG";
 
 
@@ -114,41 +137,176 @@ export const photoshoots = [
   },
   {
     id: 3,
-    image: RachelyP2,
-    value: "lifestyle",
+    image: RachelyP,
+    value: "portraits",
   },
+
   {
     id: 4,
-    image: shoniah,
+    image: RachelyP3,
     value: "lifestyle",
   },
   {
     id: 5,
-    image: ZiannaP,
+    image: shoniah,
     value: "lifestyle",
   },
+
   {
     id: 6,
-    image: cesar,
-    value: "streets",
+    image: shoniahPortrait,
+    value: "portraits",
   },
   {
     id: 7,
-    image: DevonteP,
+    image: KarinaStreet,
     value: "streets",
   },
   {
     id: 8,
-    image: nacier,
-    value: "streets",
+    image: KarinaP2,
+    value: "lifestyle",
   },
   {
     id: 9,
+    image: ZiannaP,
+    value: "lifestyle",
+  },
+
+  {
+    id: 10,
+    image: ZiannaP3,
+    value: "portraits",
+  },
+
+  {
+    id: 11,
+    image: ziannaBoudoir,
+    value: "boudoir",
+  },
+
+  {
+    id: 12,
+    image: tessaBoudoir,
+    value: "boudoir",
+  },
+
+  {
+    id: 13,
+    image: abigale,
+    value: "boudoir",
+  },
+
+  {
+    id: 14,
+    image: CassidyMMA,
+    value: "lifestyle",
+  },
+
+  {
+    id: 15,
+    image: ZenobiaP,
+    value: "boudoir",
+  },
+
+  {
+    id: 16,
+    image: ZenobiaP2,
+    value: "boudoir",
+  },
+
+  {
+    id: 17,
+    image: ZenobiaP3,
+    value: "boudoir",
+  },
+
+  {
+    id: 18,
+    image: sirreaPortrait,
+    value: "portraits",
+  },
+  {
+    id: 19,
+    image: Britt,
+    value: "portraits",
+  },
+
+  {
+    id: 20,
+    image: Jasline,
+    value: "portraits",
+  },
+
+  {
+    id: 21,
+    image: Karla,
+    value: "portraits",
+  },
+
+  {
+    id: 22,
+    image: Lizz,
+    value: "lifestyle",
+  },
+
+  {
+    id: 23,
+    image: GradStu,
+    value: "lifestyle",
+  },
+
+  {
+    id: 24,
+    image: cesar,
+    value: "streets",
+  },
+  {
+    id: 25,
+    image: DevonteP,
+    value: "streets",
+  },
+
+  {
+    id: 26,
+    image: jordenMMA,
+    value: "lifestyle",
+  },
+
+  {
+    id: 27,
     image: jorden,
     value: "lifestyle",
   },
   {
-    id: 10,
+    id: 28,
+    image: nacier,
+    value: "streets",
+  },
+
+  {
+    id: 29,
+    image: caston,
+    value: "streets",
+  },
+
+  {
+    id: 30,
+    image: AnthonyPortrait,
+    value: "portraits",
+  },
+  {
+    id: 31,
+    image: jerm,
+    value: "streets",
+  },
+  {
+    id: 32,
+    image: raymond,
+    value: "streets",
+  },
+  {
+    id: 33,
     image: jordan,
     value: "streets",
   },
