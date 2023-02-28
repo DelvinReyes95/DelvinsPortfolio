@@ -14,7 +14,21 @@ import { services, requirements } from "../Data";
             <div className="text-[#4d7c0f] text-[2rem]">{service.icon}</div>
             <div>
             <h3 className="text-xl font-bold">{service.title}</h3>
-            <p className="opacity-80 mt-4 text-[0.9rem]">{service.text}</p>
+            <div className="opacity-80 mt-4 text-[0.9rem]">
+            <p>{service.text}</p>
+            <br/>
+            <p>{service.text2}</p>
+            <br/>
+            <p>{service.text3}</p>
+            <br/>
+            <p>{service.text4}</p>
+            <br/>
+            <p>{service.text5}</p>
+            <br/>
+            <p>{service.text6}</p>
+            <br/>
+            <p>{service.text7}</p>
+            </div>
             </div>
           </div>
         )
@@ -29,6 +43,7 @@ import { services, requirements } from "../Data";
               <div className="flex justify-center mb-4 text-[1.5rem]">{requirement.icon}</div>
               <div className="mb-4 text-xl font-bold">{requirement.text}</div>
               <div className="">{requirement.amount}</div>
+              <div className="">{requirement.tab}</div>
 
             </div>
           )
