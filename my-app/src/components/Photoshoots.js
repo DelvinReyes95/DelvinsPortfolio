@@ -35,7 +35,7 @@ const Photoshoots = () => {
         })}
       </div>
       <AnimatePresence>
-      <motion.div className="grid sm:grid-cols-2 md:grid-cols-3 mt-12 gap-3">
+      <motion.div className="grid sm:grid-cols-2 md:grid-cols-3 mt-12 gap-2">
         {filterImages &&
           filterImages.map((filterImage) => {
             return(
